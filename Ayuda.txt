@@ -14,6 +14,11 @@ https://stackoverflow.com/questions/39999367/how-do-i-reference-a-local-image-in
 		- https://blog.nubecolectiva.com/como-crear-una-pagina-web-con-react-16-9-y-bootstrap-4-parte-2/
 		- https://blog.nubecolectiva.com/como-crear-una-pagina-web-con-react-16-9-y-bootstrap-4-parte-3/
 		- https://blog.nubecolectiva.com/como-crear-una-pagina-web-con-react-16-9-y-bootstrap-4-parte-4-final/
+
+		- ROUTER
+			- https://medium.com/@dvenegas/empezando-con-react-router-v4-2b8c31c7eb11
+			- Leo M
+				- https://www.youtube.com/watch?v=8m8Q4wqFez0
 		
 	- REQUIERE
 		- React js
@@ -22,3 +27,12 @@ https://stackoverflow.com/questions/39999367/how-do-i-reference-a-local-image-in
 		
 	- PASOS
 		- npx create-react-app 04_lm_imitanto_pag_formik
+		- npm install bootstrap --save
+		- npm install jquery --save
+		- npm install popper.js --save
+		- Importar en index.js los archivos
+			- import '../node_modules/bootstrap/dist/css/bootstrap.min.css'; // Archivo CSS de Bootstrap 4
+			- import '../node_modules/bootstrap/dist/js/bootstrap.min.js'; // Archivo Javascript de Bootstrap 4
+		- Crear archivos
+			- components/formik/menu/Menu.js
+			
