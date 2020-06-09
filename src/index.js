@@ -36,14 +36,14 @@ import Servicios from "./components/hoja_tutorial/servicios/Servicios";
 
 import * as serviceWorker from "./serviceWorker";
 
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css"; // Archivo CSS de Bootstrap 4
-import "../node_modules/bootstrap/dist/js/bootstrap.min.js"; // Archivo Javascript de Bootstrap 4
+// import "../node_modules/bootstrap/dist/css/bootstrap.min.css"; // Archivo CSS de Bootstrap 4
+// import "../node_modules/bootstrap/dist/js/bootstrap.min.js"; // Archivo Javascript de Bootstrap 4
 
 const Root = (
   <BrowserRouter>
     {/*
     <PruebaHojaRutas />
-    */}     
+    */}
     <Switch>
       <Route path="/tutoformik" component={TutorialFormik} />
       <Route path="/inicial" component={Inicial} />
@@ -52,9 +52,8 @@ const Root = (
       <Route exact path="/tutohoja/nosotros" component={Nosotros} />
       <Route path="/tutohoja/servicios" component={Servicios} />
 
-      <Redirect from="/" to="/inicial" />
+      <Redirect from="/" to="/tutoformik" />
     </Switch>
-     
   </BrowserRouter>
 );
 

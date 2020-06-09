@@ -11,9 +11,11 @@
     "popper.js": "^1.16.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-jsx-html-comments": "^1.0.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
-    "styled-components": "^5.1.1"
+    "styled-components": "^5.1.1",
+    "vanilla-back-to-top": "^7.2.1"
   },
   "scripts": {
     "start": "react-scripts start",

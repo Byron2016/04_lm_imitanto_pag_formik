@@ -19,6 +19,9 @@ https://stackoverflow.com/questions/39999367/how-do-i-reference-a-local-image-in
 			- https://medium.com/@dvenegas/empezando-con-react-router-v4-2b8c31c7eb11
 			- Leo M
 				- https://www.youtube.com/watch?v=8m8Q4wqFez0
+				
+		-
+			- https://www.pluralsight.com/guides/how-to-use-bootstrap-components-with-reactjs
 		
 	- REQUIERE
 		- React js
@@ -35,4 +38,14 @@ https://stackoverflow.com/questions/39999367/how-do-i-reference-a-local-image-in
 			- import '../node_modules/bootstrap/dist/js/bootstrap.min.js'; // Archivo Javascript de Bootstrap 4
 		- Crear archivos
 			- components/formik/menu/Menu.js
+			
+			
+			
+	- NOTAS
+		- React.createElement
+			- Argumentos
+				- type , props ,children
+					- type: Type of the html element or component (example : h1,h2,p,button, etc).
+					- props: The properties object (example: {style: { color: “red” }} or className or event handlers etc).
+					- children: anything you need to pass between the dom elements.
 			
